@@ -1,0 +1,8 @@
+read x;
+read y;
+if x < y then 
+    res := x
+else
+    res := y
+end;
+write res

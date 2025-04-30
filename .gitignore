@@ -1,0 +1,12 @@
+# 不忽略 src 目录及其内容
+!src/
+
+# 忽略其他特定目录
+.cache
+.vscode
+.VSCodeCounter
+target
+
+# 忽略其他特定文件
+!cjpm.lock
+!cjpm.toml
