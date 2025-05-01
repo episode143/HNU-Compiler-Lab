@@ -4,6 +4,7 @@ import comprehensiveLab.lab1.*
 import comprehensiveLab.lab2.*
 import comprehensiveLab.lab3.*
 import comprehensiveLab.lab4.*
+import comprehensiveLab.testfiles.*
 import std.collection.*
 import std.io.SeekPosition
 import std.fs.*
@@ -21,7 +22,7 @@ public func getCode(fileName:String){
         return;
     }
     // 读取文件内容
-    var fileContent:String = readFromFile("./"+fileName+".tny");
+    var fileContent:String = readFromFile("./src/testfiles/"+fileName+".tny");
     // 测试词法分析器
     var ts_sequence:ArrayList<object> =lexicalAnalysis(fileContent);
     // 创建TINY的文法

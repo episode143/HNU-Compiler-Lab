@@ -55,7 +55,7 @@ public class regularExpressionCompiler{
         // ================== 特殊终结符NFA构建 ==================
         // 1. cc（单个字母）
         var graph_cc = generateBasicNFA("CHARSET", charSetLetter, "CC")
-
+        
         // 2. crlf（四个字符顺序连接）
         var c:Rune = 'c';
         var graph_c = generateBasicNFA("CHAR", range(c,c), "")

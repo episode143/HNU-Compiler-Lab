@@ -1,0 +1,8 @@
+keyword -> if|then|else|end|repeat|until|read|write
+identifier -> [a-zA-Z][a-zA-Z0-9]*
+number -> [0-9]+
+operator -> +|-|\|*|/|<=|:=
+delimiter -> ;|(|)
+note -> {['a'-'z'|'A'-'Z']+}
+
+
