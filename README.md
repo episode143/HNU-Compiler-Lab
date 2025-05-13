@@ -22,7 +22,7 @@
 ### 实验4：语法制导的翻译实现
 - 实现了TINY语言所有的SDT函数和shift函数（在TINY翻译过程中有时shift也会触发翻译动作）。
 - 填补了语法制导翻译框架中缺失的部分，完成了TINY语言的语法制导翻译。
-- 可以通过提前准备好的文件名（不带后缀tny）翻译出tm中间代码文件。[原TINY编译器源码以及tm虚拟机文件](https://github.com/bigconvience/BooksCode)
+- 可以通过提前准备好的文件名（不带后缀tny）翻译出tm中间代码文件。[原TINY编译器源码以及tm虚拟机文件](https://github.com/bigconvience/BooksCode)。原TINY编译器源码中的makefile可能不可用，替换为此仓库目录src\testfiles\Makefile文件。
 - 经过多数样本文件测试，本仓库代码可以覆盖实验指导书样例的基本要求，与原作者编译器产生的中间代码仅有少量跳转动作的中间代码行序的不同（这些不同不会影响中间代码在tm虚拟机运行的结果）。
 
 ## 补充说明
