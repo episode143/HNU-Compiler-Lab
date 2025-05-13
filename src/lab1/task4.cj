@@ -387,8 +387,8 @@ public func createTINY():Graph{
     //show(graphEnd);
     //println();
     var result_DFA = graphEnd.NFA_to_DFA();
-    //println("TINY 词法的 dfa");
-    //show(result_DFA);
+    println("TINY 词法的 dfa");
+    show(result_DFA);
     return result_DFA;
 }
 public func testSingle(result_DFA:Graph) {
